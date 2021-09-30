@@ -26,7 +26,7 @@ pip install -r requirements.txt
 
 ## Reflection Removal 
 
-Training
+# Training
 
 Please have yours real and synthetic data paths set up correctly according to option.py.
 
@@ -34,7 +34,7 @@ Please have yours real and synthetic data paths set up correctly according to op
 CUDA_VISIBLE_DEVICES=0,1 python -m torch.distributed.launch --nproc_per_node=2 train.py
 ```
 
-Testing
+# Testing
 
 Please have yours test data paths set up correctly according to option.py.
 
